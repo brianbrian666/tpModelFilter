@@ -1,5 +1,5 @@
 {
-    "name": "syhcode/tp-model-filter",
+    "name": "brianbrian666/tp-model-filter",
     "description": "thinkphp的ORM拓展",
     "keywords": ["thinkphp", "model", "tp", "orm", "filter"],
     "homepage": "https://github.com/vorfreudeCode/tpModelFilter",
@@ -11,12 +11,14 @@
         }
     ],
     "require": {
-          "php": ">=5.5.9",
-          "topthink/think-orm": "^2.0"
-        },
-        "autoload": {
-            "psr-4": {
-              "tpModelFilter\\": "src/"
-            }
+        "php": ">=7.0"
+    },
+    "suggest": {
+        "topthink/think-orm": "^2.0 || ^3.0 || ^4.0 (used by ThinkPHP 6–8; ThinkPHP 5 provides its ORM through the framework)"
+    },
+    "autoload": {
+        "psr-4": {
+            "tpModelFilter\\": "src/"
+        }
     }
 }
